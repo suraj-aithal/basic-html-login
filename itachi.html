@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness</title>
+</head>
+<style>
+    body {
+        color: aliceblue;
+        
+        font-family: 'Baloo Bhai', cursive;
+        /* background-repeat: no-repeat; */
+    }
+    header::before{
+        background: url('img/itachi-uchiha-fohqpsc35rasahas.jpg') no-repeat center center/cover;
+            content: " ";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 1;
+            
+        }
+
+    .left {
+        position: absolute;
+        left: 25px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        margin: 1px 3px;
+        cursor: pointer;
+    }
+
+    .mid {
+        display: block;
+        /* border: 2px solid navy; */
+        margin: 29px auto;
+        width: 53%;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 25px;
+        /* border: 2px solid palevioletred; */
+
+        margin: -85px 0px;
+
+    }
+
+    .left img {
+        width: 112px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px 39px;
+        font-family: 'Baloo Bhai', cursive;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+        
+    }
+        .navbar li a:hover{
+            color: grey;
+            /* font-size: 35px;  */
+        }
+    .btn {
+        margin: 17px 10px;
+        background-color: black;
+        color: aliceblue;
+        cursor: pointer;
+        padding: 6px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: 'Baloo Bhai', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(50, 47, 47);
+        width: 125px;
+        
+    }
+
+    .container {
+        /* border: 2px solid white; */
+        margin: 163px -88px;
+        padding: 11px 122px;
+        width: 497px;
+        border-radius: 65px
+    }
+    
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 417px;
+        margin: auto;
+    }
+
+    .form-group input {
+        font-size: 23px;
+        text-align: center;
+        display: block;
+        width: 413px;
+        padding: 9px;
+        border: 2px solid black;
+        margin: 20px auto;
+        border-radius: 24px;
+        font-family: 'Baloo Bhai', cursive;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/ita.png">
+            <h1>uchiha itachi</h1>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Source</a></li>
+                <li><a href="https://i.pinimg.com/originals/7c/57/29/7c57292d55e69c304ea4f74c44d70fdd.png "target=_blank>Genjutsu</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><a href="https://media.makeameme.org/created/go-study.jpg"> Contacu us</a></button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>“ It is foolish to fear what we have yet to see and know.”</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Password">
+
+            </div>
+
+
+            <button class="btn"> submit</button>
+            <!-- <input class="neww" type="reset" value="reset"> -->
+        </form>
+    </div>
+
+</body>
+
+</html>
